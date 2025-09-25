@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Silver Plastic Logística</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: url('https://images.unsplash.com/photo-1581090700227-4c4f50d05e4a') no-repeat center center/cover;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      position: relative;
+      color: #fff;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    body::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(12px);
+      padding: 25px;
+      border-radius: 18px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 8px 22px rgba(0, 0, 0, 0.25);
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .logo {
+      width: 140px;       /* tamanho maior */
+      aspect-ratio: 1/1;  /* mantém quadrada */
+      border-radius: 12px; 
+      object-fit: cover;  
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 15px;
+      margin-bottom: 20px;
+      font-weight: 400;
+    }
+
+    .btn-group {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .btn {
+      display: block;
+      padding: 12px 18px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      color: #fff;
+      background: linear-gradient(135deg, #f97316, #fb923c);
+      border-radius: 8px;
+      transition: transform 0.2s ease, box-shadow 0.3s;
+      box-shadow: 0 4px 12px rgba(249, 115, 22, 0.4);
+    }
+
+    .btn:hover {
+      transform: translateY(-3px) scale(1.03);
+      box-shadow: 0 8px 18px rgba(249, 115, 22, 0.6);
+    }
+
+    footer {
+      margin-top: 18px;
+      font-size: 13px;
+      color: #e2e8f0;
+      opacity: 0.85;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.postimg.cc/ncgcH5h3/DQL-LOGO.png" alt="Logo Silver Plastic" class="logo">
+    <h1>Silver Plastic</h1>
+    <h2>Departamento de Qualidade e Logística</h2>
+
+    <div class="btn-group">
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1YtWgVgLPQNCUAkrbdVSGRds-WsW2H8JZ4xuhtVOp2EQ/edit" class="btn">Ocorrências e Analítico</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1f_cmOoCPO6uIArK5TGWLYL8_h-x_Xoop6WFY1DPyyBA/edit" class="btn">Pedidos Conferidos Cancelados</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1xZGk_jgoLK0ZjFypwiunX2NmrYUUGO9ZJmUvg3gL7NM/edit" class="btn">Tabela de Medidas</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1CmiCg92vXe6ZejEJ660Vh5-jNIErdCdrMDK6PcgVfJc/edit" class="btn">Curva Fila de Espera</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1J-pnSE5FSw8qLp1R0Xz4Qoj-Sh2z9Vji8H-0LMOZ104/edit" class="btn">Estoque Físico Silver Plastic</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1wnDF6a8Y5XGlkdl95EwxiIbI5q_EWL_b2Xg8Wve_vFE/edit" class="btn">Ajuste de Estoque Virtual</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1qsSJ1t2lMvb5utPI7mJbjn-31Sk_300CBFokYG5B-BU/edit" class="btn">Devoluções - Entrada por Cliente e Pcs</a>
+      <a href="https://drive.google.com/drive/u/0/folders/1ItLmfT9YQwMt5vthvp6_Y_t1cut0HeNH" class="btn">Catálogos</a>
+      <a href="https://docs.google.com/spreadsheets/d/1Qv9Keb58OwTd0tVsjqvXugVBpdN9KafX1wYFI32bPac/edit?gid=2054649958#gid=2054649958" class="btn">Artigos sem cadastro</a>
+      <a href="https://docs.google.com/spreadsheets/d/1pEQLiT8EiLuSyfKJrL7Gp75nNnTVSIiUDoIr9Jzk27g/edit?gid=154963857#gid=154963857" class="btn">Falhas de Separação</a>
+      <a href="https://docs.google.com/spreadsheets/u/0/d/1s3P33294F0G_WveSH9vlnOQNrrnwoqXFUCqz3MXuAE4/edit" class="btn">HouseKeeping</a>
+    </div>
+
+    <footer>&copy; 2025 Silver Plastic</footer>
+  </div>
+</body>
+</html>
